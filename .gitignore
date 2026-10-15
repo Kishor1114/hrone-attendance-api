@@ -1,0 +1,17 @@
+# secrets and environment (never commit any of these)
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+# python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+# never commit (submission rules): confidential problem statement, Dockerfile, database dumps
+PROBLEM_STATEMENT.docx
+Dockerfile
+*.dump
+*.bson
+*.archive

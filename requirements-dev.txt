@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8.0
+httpx>=0.27
+mongomock>=4.1
+tzdata>=2024.1  # IANA tz data for the zoneinfo oracle tests (Windows has no system copy)
+jsonschema>=4.18  # contract-conformance tests validate responses against openapi.yaml
+PyYAML>=6.0
